@@ -139,6 +139,7 @@
     .userEvalAndSecondCarousel {
         display: flex;
         flex-direction: row-reverse;
+        border-left: 2px solid #000000;
     }
 
     .evaluationMainDiv {
@@ -146,6 +147,7 @@
         flex: 1;
         flex-direction: column;
         border-right: 2px solid #000000;
+        border-left: 2px solid #000000;
     }
 
     #solidBetweenInfoAndPrice {
@@ -158,6 +160,7 @@
     }
     .quantityWithAddToCart {
         border: none;
+        border-top: 2px solid #000000;
     }
 
     .userEvaluation2, .userEvaluation3 {
@@ -173,6 +176,10 @@
         margin: 0;
         padding-top: 10px;
         padding-bottom: 15px;
+    }
+
+    .productInfos {
+        font-size: 5vm;
     }
 }
 
@@ -190,6 +197,13 @@
     margin: 10px 20px 20px;
 }
 
+.productInfos {
+    font-size: small;
+}
+
+.productInfos2 {
+    font-size: large;
+}
 .descriptionText {
     overflow: hidden;
     text-overflow: ellipsis;
